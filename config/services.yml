@@ -1,0 +1,3 @@
+services:
+  dbs.connection:
+    class: DbSimpleBundle\DbSimple\Dbs

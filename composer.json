@@ -1,0 +1,25 @@
+{
+  "name": "primebit/symfony-dbsimple-bundle",
+  "type": "symfony-bundle",
+  "description": "Bridge for integrate DbSimple into Symfony Flex project",
+  "keywords": ["php", "symfony", "symfony-bundle"],
+  "homepage": "https://github.com/primebit/symfony-dbsimple-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Konstantin Ivanchenko",
+      "email": "iam@primebit.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acme\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
+}
